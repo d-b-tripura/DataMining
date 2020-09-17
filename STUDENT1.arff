@@ -1,0 +1,15 @@
+% my data
+@relation student1
+@attribute rno numeric
+@attribute name string
+@attribute dept {cse, it, eee, ece}
+@attribute class {PASS, FAIL}
+@attribute age numeric
+@attribute data_date date "yyyy-MM-dd"
+
+@data
+1,ramya,cse,PASS,20,"2021-09-20"
+2,john,ece,PASS,20,"2020-08-14"
+13,vani,it,FAIL,21,"2016-06-01"
+4,kavya,cse,PASS,22,"1999-07-29"
+11,amy,eee,PASS,21,"2011-11-05"
